@@ -2,7 +2,7 @@
   'use strict';
 
   window.VIRTUAL_URL_BASE = 'https://hakerh400.github.io/';
-  window.VIRTUAL_URL = window.VIRTUAL_URL_BASE + '?project=other-projects&sub-project=grid';
+  window.VIRTUAL_URL = window.VIRTUAL_URL_BASE + '?project=encrypted-data-transfer';
 
   window.addEventListener('load', function(){
     var O = {
