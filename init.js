@@ -52,7 +52,7 @@
         };
         xhr.open('GET', O.urlTime(file));
         xhr.send();
-      },
+      }
     };
 
     O.init();
