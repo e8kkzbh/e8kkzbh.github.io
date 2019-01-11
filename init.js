@@ -24,7 +24,7 @@
         noscript.remove();
 
         O.rf(window.VIRTUAL_URL_BASE + 'framework.js', function(status, script){
-          if(status != 200) return O.fatalError('Cannot load framework script. Try clearing cache or restarting your browser.');
+          if(status != 200) return O.fatalError('Cannot load framework script. Try disabling extensions.');
           new Function(script)();
         });
       },
